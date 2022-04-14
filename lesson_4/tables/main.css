@@ -1,0 +1,32 @@
+/* table {
+  background-color: cyan;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: orange;
+}
+
+tbody tr:nth-child(odd)  {
+  background-color: orange;
+}
+
+tbody tr:nth-child(even) {
+  background-color: yellow;
+} */
+
+/* [scope="col"] {
+  color: green;
+}
+
+[scope="row"] {
+  color: blue;
+} */
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray
+}

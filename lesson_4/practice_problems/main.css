@@ -1,0 +1,51 @@
+
+/* ul {
+  list-style-type: none;
+}
+
+.reasons_jquery_title {
+  font-size: 3rem;
+}
+
+.reasons_jquery_title + ol {
+  font-size: 1.2rem;
+  list-style-type: upper-roman;
+} */
+
+html {
+  font-size: 20px;
+}
+
+nav ul {
+  background-color: yellow;
+  width: 100%;
+  list-style-type: none;
+  /* outline: solid blue 1px; */
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  color: blue;
+  /* outline: solid red 1px; */
+  font-size: 0;
+  width: 25%;
+  text-align: center;
+}
+
+nav a {
+  font-size: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 2.5;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: green;
+  color: yellow;
+}
